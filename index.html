@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Simple Landng Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- reset css -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css"
+        />
+        <!-- bootstrap CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="styles/scss/dist/reset.css" />
+        <link rel="stylesheet" href="styles/scss/dist/main.css" />
+        <link rel="stylesheet" href="styles/scss/dist/adaptive.css" />
+        <link rel="stylesheet" href="styles/font.css" />
+    </head>
+    <body>
+        <nav id="navbar" class="container">
+            <div class="row justify-content-md-between">
+                <div class="col-md-3 col-sm-6 navbar__logo">
+                    <a class="navbar__logo_link" href="#"
+                        ><img
+                            data-src="image/logo-header.png"
+                            src="image/1x1.png"
+                            alt="Logo"
+                    /></a>
+                </div>
+                <div class="col-md-8 col-sm-6 navbar__links">
+                    <ul
+                        class="
+                            navbar__links_ul
+                            flex-sm-column
+                            justify-content-sm-space-between
+                            flex-md-row
+                            justify-content-md-space-between
+                        "
+                    >
+                        <li class="navbar_el"><a href="#">О компании</a></li>
+                        <li class="navbar_el"><a href="#">Решения</a></li>
+                        <li class="navbar_el"><a href="#">Полезное</a></li>
+                        <li class="navbar_el"><a href="#">Портфолио</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div
+                id="carouselHeader"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselHeader"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselHeader"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselHeader"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-7">
+                                    <h1>НОВИНКИ<br /><b> НОВОГО РЕЛИЗА</b></h1>
+                                    <h4>БИТРИКС 23</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua.Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-7">
+                                    <h1>НОВИНКИ<br /><b> НОВОГО РЕЛИЗА</b></h1>
+                                    <h4>БИТРИКС 24</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua.Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-7">
+                                    <h1>НОВИНКИ<br /><b> НОВОГО РЕЛИЗА</b></h1>
+                                    <h4>БИТРИКС 25</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua.Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section__help-business">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <img
+                            class="help-business_img"
+                            data-src="image/PC.svg"
+                            src="image/1x1.png"
+                            alt="pc"
+                        />
+                    </div>
+                    <div class="col-md-6">
+                        <h2>
+                            Помогаем бизнесу развиваться
+                            <strong>онлайн!</strong>
+                        </h2>
+                        <p>
+                            С нами работают и двигаются вперед компании от
+                            <span>10</span> до <span>300</span> сотрудников.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="benefits_box col-sm-12 col-md-6 col-lg-3">
+                        <h3>АВТОМАТИЗАЦИЯ БИЗНЕСА</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+                        <!-- <hr /> -->
+                        <a href="#">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+                    <div class="benefits_box col-sm-12 col-md-6 col-lg-3">
+                        <h3>
+                            САЙТЫ И <br />
+                            ИНТЕРНЕТ-МАГАЗИНЫ
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+
+                        <a href="#">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+                    <div class="benefits_box col-sm-12 col-md-6 col-lg-3">
+                        <h3>ИНДИВИДУАЛЬНАЯ РАЗРАБОТЫКА</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+
+                        <a href="#">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+                    <div class="benefits_box col-sm-12 col-md-6 col-lg-3">
+                        <h3>
+                            ГОТОВЫЕ <br />
+                            РЕШЕНЕНИЯ
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+
+                        <a href="#">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__people">
+            <div class="container">
+                <div class="row align-self-center">
+                    <div class="col-sm-12 col-md-9 col-lg-7">
+                        <h2>КТО ВСЕ ЭТИ ЛЮДИ</h2>
+                        <p>
+                            Lorem ipsum dolor sit
+                            <b>amet, consectetur adipisicing elit, sed</b> do
+                            eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.
+                        </p>
+                        <p>
+                            <b>Lorem ipsum</b> dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.Lorem ipsum dolor
+                            sit amet,
+                        </p>
+
+                        <p>
+                            consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Lorem
+                            ipsum dolor sit amet,
+                            <b
+                                >consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore
+                            </b>
+                            et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div
+                        class="
+                            col-md-3 col-lg-4
+                            offset-md-0 offset-lg-1
+                            align-self-center
+                        "
+                    >
+                        <img
+                            class="people_card"
+                            data-src="image/card.jpg"
+                            src="image/1x1.png"
+                            alt="off group card"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__numbers">
+            <div class="numbers_bg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="number_box col-sm-6 col-md-3">
+                        <b>150</b>
+                        <p>ПРОЕКТОВ В ПОРТФОЛИО</p>
+                    </div>
+                    <div class="number_box col-sm-6 col-md-3">
+                        <b>50</b>
+                        <p>ПРОЕКТОВ В ПОРТФОЛИО</p>
+                    </div>
+                    <div class="number_box col-sm-6 col-md-3">
+                        <b>456</b>
+                        <p>ПРОЕКТОВ В ПОРТФОЛИО</p>
+                    </div>
+                    <div class="number_box col-sm-6 col-md-3">
+                        <b>63</b>
+                        <p>ПРОЕКТОВ В ПОРТФОЛИО</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__our-works">
+            <div class="container">
+                <div
+                    id="carouselOurWorks"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                    data-bs-interval="false"
+                >
+                    <div class="row">
+                        <h2 class="section__our-works_title text-center">
+                            НАШИ РАБОТЫ
+                        </h2>
+                        <ol
+                            class="
+                                carousel-indicators
+                                d-flex
+                                justify-content-center
+                            "
+                        >
+                            <li
+                                data-bs-slide-to="0"
+                                aria-label="Slide 1"
+                                data-bs-target="#carouselOurWorks"
+                                class="active"
+                                aria-current="true"
+                            >
+                                Все
+                            </li>
+                            <li
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                                data-bs-target="#carouselOurWorks"
+                            >
+                                Битрекс 24
+                            </li>
+                            <li
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                                data-bs-target="#carouselOurWorks"
+                            >
+                                Сайты
+                            </li>
+                            <li
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                                data-bs-target="#carouselOurWorks"
+                            >
+                                Скрипты
+                            </li>
+                        </ol>
+
+                        <div class="col-md-6">
+                            <div class="image_box d-flex align-items-center">
+                                <h2 class="">
+                                    ВНЕДРЕНИЕ <strong>БИТРИКС24</strong> В
+                                    МЕБЕЛЬНУЮ КОМПАНИЮ
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="carousel-inner">
+                                <button
+                                    class="
+                                        carousel-control-prev carousel_nav-btn
+                                    "
+                                    type="button"
+                                    data-bs-target="#carouselOurWorks"
+                                    data-bs-slide="prev"
+                                >
+                                    <span
+                                        class="carousel-control-prev-icon"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span class="visually-hidden"
+                                        >Previous</span
+                                    >
+                                </button>
+                                <button
+                                    class="
+                                        carousel-control-next carousel_nav-btn
+                                    "
+                                    type="button"
+                                    data-bs-target="#carouselOurWorks"
+                                    data-bs-slide="next"
+                                >
+                                    <span
+                                        class="carousel-control-next-icon"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                                <div class="carousel-item active">
+                                    <p>
+                                        <b>Lorem ipsum dolor sit amet,</b>
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Lorem ipsum dolor
+                                        sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incidid
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>
+                                        <b>Lorem ipsum dolor sit amet,</b>
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Lorem ipsum dolor
+                                        sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut
+                                        labore Уt dolore magna aliqua.Lorem
+                                        ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua.
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>
+                                        <b>Lorem ipsum dolor sit amet,</b>
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Lorem ipsum dolor
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>
+                                        <b>Lorem ipsum dolor sit amet,</b>
+                                        consectetur adipisicing elit, sed do
+                                        eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Lorem ipsum dolor
+                                        sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut
+                                        labore Уt dolore magna aliqua.Lorem
+                                        ipsum dolor sit amet, consectetur
+                                    </p>
+                                </div>
+                                <button class="carousel_button">
+                                    Все работы
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__free-consultation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="consultation_info">
+                            <h2>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</h2>
+                            <p>
+                                Lorem ipsum dolor sit
+                                <b>amet, consectetur adipisicing elit, sed</b>
+                                do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                            <p>
+                                <b>Lorem ipsum</b> dolor sit amet, consectetur
+                                adipisicing elit, sed do.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <form id="consultation__form">
+                            <div class="mb-4">
+                                <label for="inputName" class="form-label"
+                                    >Имя <span>*</span></label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Представьтесь, пожалуйста"
+                                    id="inputName"
+                                    required
+                                />
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="inputPhone" class="form-label"
+                                    >Телефон <span>*</span>
+                                </label>
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    placeholder="+7 (000) 000-00-00"
+                                    id="inputPhone"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label for="inputEmail" class="form-label"
+                                    >Почта</label
+                                >
+                                <input
+                                    type="phone"
+                                    class="form-control"
+                                    placeholder="mail@domain.ru"
+                                    id="inputEmail"
+                                />
+                            </div>
+                            <button type="submit" class="btn_send">
+                                ОТПРАВИТЬ
+                            </button>
+                            <p>
+                                Нажимая на кнопку «Отправить», я даю согласие на
+                                обработку персональных данных и соглашаюсь c
+                                политикой конфиденциальности
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <h5>РЕШЕНИЯ</h5>
+                        <a href="#">Автоматизация бизнеса</a>
+                        <a href="#">Сайты и интернет-магазины</a>
+                        <a href="#">Индивидуальная разработка</a>
+                        <a href="#">Готовые решения</a>
+                        <a href="#" class="footer-logo"
+                            ><img
+                                data-src="image/logo.png"
+                                src="image/1x1.png"
+                                alt="Logo"
+                        /></a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h5>МАГАЗИН</h5>
+                        <a href="#">Лицензии Битрикс24 </a>
+                        <a href="#">Лицензии 1С Битрикс</a>
+                        <a href="#">Приложения Битрикс24</a>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>ИНФОРМАЦИЯ</h5>
+                        <a href="#">О компании</a>
+                        <a href="#">Соглашение</a>
+                        <a href="#">Блог</a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <p>+7 (812) 467-35-15</p>
+                        <p>8 (800) 000-00-00</p>
+                        <a class="image-link" href="#"
+                            ><img
+                                data-src="image/vk.svg"
+                                src="image/1x1.png"
+                                alt="vk link"
+                        /></a>
+                        <a class="image-link" href="#"
+                            ><img
+                                data-src="image/instagram.svg"
+                                src="image/1x1.png"
+                                alt="instagram link"
+                        /></a>
+                        <a class="image-link" href="#"
+                            ><img
+                                data-src="image/youtube.svg"
+                                alt="youtube link"
+                        /></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/index.js"></script>
+        <script src="js/lazyLoad.js"></script>
+        <script src="js/formValidation.js"></script>
+        <!-- bootstrap JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
