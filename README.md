@@ -1,2 +1,2 @@
 # SimpleLandingPage
-HTML + SCSS + LazyLoad + JS Form Validation
+HTML + SCSS + Bootstrap + LazyLoad + JS Form Validation
