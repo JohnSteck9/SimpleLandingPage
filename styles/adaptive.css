@@ -1,0 +1,165 @@
+@media (max-width: 992px) {
+  .section__benefits .benefits_box:nth-child(4n+2), .section__benefits .benefits_box:nth-child(4n+3) {
+    background-color: #f79900;
+  }
+  .section__benefits .benefits_box:nth-child(4n+1), .section__benefits .benefits_box:nth-child(4n+4) {
+    background-color: #333;
+  }
+
+  .section__numbers .number_box {
+    height: 220px;
+  }
+  .section__numbers .number_box b {
+    font-size: 56px;
+  }
+
+  .section__our-works #carouselOurWorks .image_box h2 {
+    font-size: 32px;
+  }
+  .section__our-works .carousel-item {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+  }
+  #navbar .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 30;
+  }
+  #navbar .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: #070508;
+    margin: 5px;
+    display: block;
+  }
+  #navbar .navbar__links .navbar__links_ul {
+    z-index: 10;
+    position: absolute;
+    top: 82px;
+    left: 0;
+    display: none;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  #navbar .navbar__links .navbar__links_ul.open {
+    display: flex;
+    z-index: 21;
+    width: 100vw;
+    height: calc(100vh - 82px);
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+    background: #000000;
+  }
+  #navbar .navbar__links .navbar__links_ul.open li a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #f79900;
+  }
+  #navbar .navbar__links .navbar__links_ul .navbar_el {
+    opacity: 0;
+  }
+  #navbar .navbar__links .navbar__links_ul .navbar_el.fade {
+    opacity: 1;
+  }
+  #navbar .navbar__links .navbar__links_ul .navbar_el a {
+    font-size: 25px;
+  }
+  #navbar .navbar__links .navbar__links_ul .navbar_el:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  #navbar .navbar__links .navbar__links_ul .navbar_el:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  #navbar .navbar__links .navbar__links_ul .navbar_el:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+
+  header h1 {
+    padding-top: 20px;
+  }
+
+  .section__benefits .benefits_box:nth-child(4n+1), .section__benefits .benefits_box:nth-child(4n+3) {
+    background-color: #f79900;
+  }
+  .section__benefits .benefits_box:nth-child(4n+2), .section__benefits .benefits_box:nth-child(4n+4) {
+    background-color: #333;
+  }
+
+  .section__help-business .help-business_img {
+    width: 100%;
+  }
+
+  .section__numbers .number_box {
+    margin-top: 0;
+    height: 200px;
+  }
+  .section__numbers .number_box:nth-child(4n+1), .section__numbers .number_box:nth-child(4n+4) {
+    border-color: #333;
+    color: #333;
+  }
+  .section__numbers .number_box:nth-child(4n+2), .section__numbers .number_box:nth-child(4n+3) {
+    border-color: #f79900;
+    color: #f79900;
+  }
+  .section__numbers .number_box:hover {
+    margin-top: -10px;
+  }
+
+  .section__free-consultation {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  .section__free-consultation .consultation_info {
+    background-image: none;
+  }
+}
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 62px;
+  }
+  header h1 > b {
+    font-size: 34px;
+  }
+
+  .section__benefits .benefits_box:nth-child(2n) {
+    background-color: #f79900;
+  }
+  .section__benefits .benefits_box:nth-child(2n+1) {
+    background-color: #333;
+  }
+
+  .section__numbers .number_box {
+    margin-top: 0;
+    height: 200px;
+  }
+  .section__numbers .number_box:nth-child(odd) {
+    border: 15px solid #333;
+    color: #333;
+  }
+  .section__numbers .number_box:nth-child(even) {
+    border: 15px solid #f79900;
+    color: #f79900;
+  }
+
+  .section__free-consultation .consultation_info h2 {
+    font-size: 32px;
+  }
+
+  footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
