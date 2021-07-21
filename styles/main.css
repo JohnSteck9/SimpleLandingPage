@@ -75,7 +75,7 @@ h2 {
 }
 
 header {
-  background: url(../../../image/header-bg.jpg) center center no-repeat black;
+  background: url(../image/header-bg.jpg) center center no-repeat black;
   height: 516px;
 }
 header h1 {
@@ -188,7 +188,7 @@ header #carouselHeader .carousel-indicators .active {
 }
 
 .section__numbers .numbers_bg {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../../image/numbers_bg.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../image/numbers_bg.jpg);
   height: 258px;
 }
 .section__numbers .number_box {
@@ -233,7 +233,7 @@ header #carouselHeader .carousel-indicators .active {
 .section__our-works #carouselOurWorks .image_box {
   height: 100%;
   width: 100%;
-  background-image: url(../../../image/room2.jpg);
+  background-image: url(../image/room2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-clip: content-box;
@@ -319,7 +319,7 @@ header #carouselHeader .carousel-indicators .active {
 }
 .section__free-consultation .consultation_info {
   height: 100%;
-  background: url(../../../image/PC_3.jpg) no-repeat center bottom;
+  background: url(../image/PC_3.jpg) no-repeat center bottom;
 }
 .section__free-consultation .consultation_info h2 {
   margin-bottom: 23px;
@@ -363,7 +363,7 @@ header #carouselHeader .carousel-indicators .active {
 
 footer {
   padding-top: 90px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)), url(../../../image/footer_bg.jpg) no-repeat center center/cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)), url(../image/footer_bg.jpg) no-repeat center center/cover;
   color: white;
 }
 footer h5 {
